@@ -1,0 +1,7 @@
+{
+  "url":"https://busybox.net/downloads/busybox-1.37.0.tar.bz2",
+  "unCompress":"tar -xvjf busybox-1.37.0.tar.bz2",
+  "foldername":"busybox-1.37.0",
+  "build":"make menuconf && make && make install",
+  "endMessage":"you have installed/ updated busyBox."
+}

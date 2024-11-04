@@ -1,0 +1,7 @@
+{
+  "url":"https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.11.6.tar.xz",
+  "unCompress":"tar -xfv linux-6.11.6.tar.xz",
+  "foldername":"linux-6.11.6",
+  "build":"make menuconf && make && make install",
+  "endMessage":"plese make a initramfs, and redo your bootloader."
+}

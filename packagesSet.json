@@ -1,2 +1,10 @@
 {
+  "linux":{
+    "buildConf": "/lfs-pacageRepo/buildFiles/sys/kernel/linux.json",
+    "descripshon": "this is the main line kernel."
+  },
+  "busyBox(userland)":{
+    "buildConf": "/lfs-pacageRepo/buildFiles/sys/utils/busyBox.json",
+    "descripshon": "this is the basic cammsnd like ls and more"
+  }
 }
